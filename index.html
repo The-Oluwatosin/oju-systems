@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oju Systems — See The Unseen</title>
+  <meta name="description" content="Oju Systems is building The Seer — a spatial computing headset that makes immersive AR and VR radically accessible. Engineered in Lagos, Nigeria.">
+  <meta name="theme-color" content="#121212">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Manrope:wght@400;500;600&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="preload" as="image" href="assets/images/hero-seer.webp">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="nav" id="nav">
+    <a href="#hero" class="nav__logo" aria-label="Oju Systems home">
+      <img src="assets/images/logo-white.png" alt="OJU" class="nav__wordmark">
+    </a>
+    <nav class="nav__links" aria-label="Main navigation">
+      <a href="#product" class="nav__link">Product</a>
+      <a href="#architecture" class="nav__link">Technology</a>
+      <a href="#impact" class="nav__link">Impact</a>
+      <a href="#founder" class="nav__link">Founder</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Section 1: Hero -->
+    <section class="section hero" id="hero">
+      <div class="hero__video-wrap" aria-hidden="true">
+        <video class="hero__video" autoplay muted loop playsinline preload="auto" poster="assets/images/hero-seer.webp">
+          <source src="assets/video/hero-reveal.mp4" type="video/mp4">
+        </video>
+        <div class="hero__video-overlay"></div>
+      </div>
+      <div class="hero__content reveal">
+        <h1 class="hero__headline">The future is here, but not for everyone.</h1>
+        <p class="hero__sub">Oju Systems is changing that.</p>
+      </div>
+      <div class="hero__scroll" aria-hidden="true">
+        <span class="hero__scroll-line"></span>
+        <span class="hero__scroll-text">SCROLL TO SEE</span>
+      </div>
+    </section>
+
+    <!-- Section 2: The Problem -->
+    <section class="section problem" id="problem">
+      <div class="problem__grid">
+        <div class="problem__card reveal">
+          <span class="problem__label">The Cost Barrier</span>
+          <span class="problem__stat">$15,000+</span>
+          <p class="problem__text">Nigerian directors have extraordinary stories, but they can't afford the millions required for Hollywood-style sets and VFX. They need a way to shoot big on a small budget.</p>
+        </div>
+        <div class="problem__card reveal" style="--delay: 0.2s">
+          <span class="problem__label">The Access Gap</span>
+          <span class="problem__stat">$3,500</span>
+          <p class="problem__text">The world is moving from phones to spatial computing, but devices like the Apple Vision Pro lock most of Africa out. This price barrier denies education and healthcare access to the virtual simulations needed to compete globally.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: The Reveal -->
+    <section class="section product" id="product">
+      <div class="product__content reveal">
+        <h2 class="product__name">The Seer</h2>
+        <p class="product__tagline">Spatial Computing. Radically Accessible.</p>
+        <p class="product__desc">The supercomputer required to run spatial computing already exists in the pockets of millions of Africans: the smartphone. By offloading all heavy processing to the phone you already own, The Seer delivers premium AR and VR at a fraction of the cost of imported alternatives.</p>
+      </div>
+      <div class="product__detail reveal">
+        <img src="assets/images/seer-detail.webp" alt="The Seer headset — close-up detail showing precision hinge mechanism and OJU-SYS V1.0 engraving" class="product__detail-image" loading="lazy">
+      </div>
+    </section>
+
+    <!-- Section 4: How It Works -->
+    <section class="section architecture" id="architecture">
+      <div class="architecture__grid-overlay" aria-hidden="true"></div>
+      <div class="architecture__header reveal">
+        <span class="section__eyebrow">Offloaded Compute Architecture</span>
+        <h2 class="architecture__title">Engineered for Reality</h2>
+      </div>
+      <div class="architecture__diagram reveal">
+        <img src="assets/images/schematic.webp" alt="Exploded view illustration of The Seer headset showing separated components: visor, chassis, head strap, and Universal Bridge cable" class="architecture__blueprint" loading="lazy">
+        <div class="architecture__callouts">
+          <span class="callout callout--1 reveal" style="--delay: 0.1s">Adjustable Halo Head Strap Assembly</span>
+          <span class="callout callout--2 reveal" style="--delay: 0.2s">45° Semi-Transparent Optical Combiner</span>
+          <span class="callout callout--3 reveal" style="--delay: 0.3s">USB-C Data/Power Interface</span>
+          <span class="callout callout--4 reveal" style="--delay: 0.4s">Oju Universal Bridge</span>
+        </div>
+      </div>
+      <div class="architecture__features reveal">
+        <div class="architecture__feature">
+          <span class="architecture__feature-label">Tiered Compatibility</span>
+          <p class="architecture__feature-text">Works with any smartphone — Samsung, Tecno, or anything in between — through our smart logic protocol.</p>
+        </div>
+        <div class="architecture__feature">
+          <span class="architecture__feature-label">Magnetic Shield System</span>
+          <p class="architecture__feature-text">Instantly converts from transparent AR magic window to pitch-black VR cinema. One headset, two realities.</p>
+        </div>
+        <div class="architecture__feature">
+          <span class="architecture__feature-label">Zero-Data Deployment</span>
+          <p class="architecture__feature-text">Our Oju Local Cloud deploys the app to hundreds of devices instantly via local Wi-Fi — no internet, no app store required.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5: What's In The Box -->
+    <section class="section unboxing" id="unboxing">
+      <div class="unboxing__content">
+        <div class="unboxing__image-wrap reveal">
+          <img src="assets/images/unboxing.webp" alt="Flat-lay of The Seer components: headset visor, halo strap, Universal Bridge cable, quick start card, and adjustment tools on concrete surface" class="unboxing__image" loading="lazy">
+        </div>
+        <div class="unboxing__labels reveal">
+          <div class="unboxing__label">
+            <span class="unboxing__label-name">The Seer Visor</span>
+            <span class="unboxing__label-desc">Main chassis with micro-LCD display and optical combiner</span>
+          </div>
+          <div class="unboxing__label">
+            <span class="unboxing__label-name">Halo Strap Assembly</span>
+            <span class="unboxing__label-desc">Adjustable, ergonomic fit for extended sessions</span>
+          </div>
+          <div class="unboxing__label">
+            <span class="unboxing__label-name">Universal Bridge Cable</span>
+            <span class="unboxing__label-desc">USB-C data and power interface with pass-through charging</span>
+          </div>
+          <div class="unboxing__label">
+            <span class="unboxing__label-name">OJU OS // Seer Initialization</span>
+            <span class="unboxing__label-desc">Quick start card with setup instructions</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 6: The Ecosystem -->
+    <section class="section ecosystem" id="software">
+      <div class="ecosystem__header reveal">
+        <h2 class="ecosystem__title">The Ecosystem</h2>
+        <p class="ecosystem__sub">Hardware is only the beginning. The Seer is the gateway to an entire platform.</p>
+      </div>
+      <div class="ecosystem__cards">
+        <div class="ecosystem__card reveal">
+          <div class="ecosystem__card-image">
+            <img src="assets/images/pov-1.webp" alt="Simulated POV of augmented production — AI-generated environments blended with real footage" loading="lazy">
+          </div>
+          <h3 class="ecosystem__card-title">Augmented Production Studio</h3>
+          <p class="ecosystem__card-text">A force multiplier for filmmakers. Using Generative AI, directors can shoot big-budget scenes without building physical sets — blending real actors with AI-generated environments.</p>
+        </div>
+        <div class="ecosystem__card reveal" style="--delay: 0.15s">
+          <div class="ecosystem__card-image">
+            <img src="assets/images/pov-2.webp" alt="People experiencing immersive content through The Seer at an Oju Experience Zone" loading="lazy">
+          </div>
+          <h3 class="ecosystem__card-title">Oju Experience Zones</h3>
+          <p class="ecosystem__card-text">Partnering with cinemas and event centers to create immersive venues where audiences don't just watch content — they step inside it.</p>
+        </div>
+        <div class="ecosystem__card reveal" style="--delay: 0.3s">
+          <div class="ecosystem__card-image">
+            <img src="assets/images/pov-3.webp" alt="The Oju App interface showing spatial content library" loading="lazy">
+          </div>
+          <h3 class="ecosystem__card-title">Oju App</h3>
+          <p class="ecosystem__card-text">The software that ties hardware to content. Deployed instantly via Oju Local Cloud — zero internet data consumed, zero app store delays.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 7: Impact -->
+    <section class="section impact" id="impact">
+      <div class="impact__header reveal">
+        <h2 class="impact__title">Beyond Entertainment</h2>
+        <p class="impact__sub">When you lower the cost of entry, you change who gets to build the future.</p>
+      </div>
+      <div class="impact__blocks">
+        <div class="impact__block reveal">
+          <div class="impact__indicator" aria-hidden="true"></div>
+          <h3 class="impact__block-title">Immersive Education</h3>
+          <p class="impact__block-text">50 students in a Lagos classroom, simultaneously interacting with a beating 3D holographic heart — completely independent of expensive internet bandwidth. The Seer replaces flat textbooks with spatial experiences: virtual field trips to historical sites, interactive 3D models of human organs, safe environments for special needs students to practice real-world skills.</p>
+        </div>
+        <div class="impact__block reveal" style="--delay: 0.2s">
+          <div class="impact__indicator" aria-hidden="true"></div>
+          <h3 class="impact__block-title">Risk-Free Medical Training</h3>
+          <p class="impact__block-text">Medical students can practice surgeries on holograms before touching real patients. Visualize internal anatomy — bones, tumors, respiratory systems — in full 6-DoF 3D, projected directly onto a desk. Speeding up learning. Ensuring safer procedures in real hospitals.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 8: The Architect -->
+    <section class="section founder" id="founder">
+      <div class="founder__layout">
+        <div class="founder__photo-wrap reveal">
+          <img src="assets/images/founder.webp" alt="Oluwatosin Ezekiel Adeyemo — Founder and Lead Architect of Oju Systems" class="founder__photo" loading="lazy">
+        </div>
+        <div class="founder__content reveal">
+          <span class="founder__eyebrow">The Architect</span>
+          <h2 class="founder__name">Oluwatosin Ezekiel Adeyemo</h2>
+          <span class="founder__role">Founder & Lead Architect</span>
+          <p class="founder__bio">My background is unconventional for hardware engineering, and that is exactly Oju's greatest advantage. As an Electrical/Electronics Engineering student at UNILAG, I understand the physical constraints of silicon and routing. But as a video producer and brand designer, I understand visual storytelling and human psychology.</p>
+          <p class="founder__bio">Hardware is usually built by engineers who treat aesthetics as an afterthought. I approach Oju as a designer first. The Seer isn't designed to look like a bulky tech gadget — it is being meticulously crafted to feel like a premium lifestyle accessory.</p>
+          <p class="founder__bio">My passion lies at this intersection: bridging complex, low-level engineering with bleeding-edge visual art, music, and Afrofuturism. Oju is the physical canvas for that intersection.</p>
+          <div class="founder__credentials">
+            <span class="founder__credential">UNILAG Electrical Engineering</span>
+            <span class="founder__credential">Certified Generative AI Specialist</span>
+            <span class="founder__credential">5+ Years Brand & Digital Strategy</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 9: The Road Ahead -->
+    <section class="section future" id="future">
+      <div class="future__header reveal">
+        <h2 class="future__title">The Road Ahead</h2>
+        <p class="future__sub">Backed by the S-VCG Tech Grant, our roadmap begins now.</p>
+      </div>
+      <div class="future__timeline reveal">
+        <div class="future__phase">
+          <span class="future__phase-label">Phase 01</span>
+          <h3 class="future__phase-title">Market Validation</h3>
+          <p class="future__phase-text">Deploy The Seer via B2B rental for high-impact cinema events. Stress-test hardware durability with 500+ users in controlled environments.</p>
+        </div>
+        <div class="future__phase">
+          <span class="future__phase-label">Phase 02</span>
+          <h3 class="future__phase-title">Institutional Expansion</h3>
+          <p class="future__phase-text">Transition to B2C and institutional models. Supply headsets to schools and hospitals for virtual simulation. Mass-produce for individual entertainment.</p>
+        </div>
+        <div class="future__phase">
+          <span class="future__phase-label">Phase 03</span>
+          <h3 class="future__phase-title">Deep-Tech Manufacturing</h3>
+          <p class="future__phase-text">Pivot R&D to proprietary volumetric holographic displays — positioning Oju Systems as Africa's first optical hardware manufacturer.</p>
+        </div>
+      </div>
+
+      <div class="future__closing reveal">
+        <h2 class="future__closing-headline">This isn't just a startup.</h2>
+        <p class="future__closing-text">Oju Systems represents more than a tech venture or creative studio. We are building industrial capacity in Nigeria by localizing the production of future-tech hardware and equipping the creative, educational, and medical sectors with the tools needed to compete globally.</p>
+      </div>
+
+      <div class="future__cta reveal">
+        <a href="mailto:ojusystems@gmail.com" class="btn">Get In Touch</a>
+        <p class="future__email">ojusystems@gmail.com</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__content">
+      <img src="assets/images/logo-white.png" alt="Oju Systems" class="footer__wordmark">
+      <p class="footer__tagline">See The Unseen</p>
+      <p class="footer__location">Lagos, Nigeria</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

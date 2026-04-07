@@ -1,0 +1,9 @@
+.env
+node_modules/
+.DS_Store
+research/
+scripts/
+oju-systems-site-preview.png
+assets/images/schematic.png
+assets/video/hero-reveal-v1.mp4
+assets/video/hero-reveal-v2.mp4
